@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header img {
+  height: 48px;
+  max-width: 150px;
+}
+
+.leaderboards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.leaderboard {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+}
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 50px;
+  max-width: 500px;
+}
+
+.leaderboard-layout {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leaderboard-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+.leaderboard {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.rank {
+  font-weight: bold;
+  width: 24px;
+}
+
+.name {
+  flex: 1;
+}
+
+.team {
+  font-style: italic;
+  color: #888;
+}
+
+.points {
+  font-weight: bold;
+}
+.admin-panel {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.admin-panel input,
+.admin-panel select,
+.admin-panel button {
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+}
+/* Shared leaderboard styles */
+.leaderboard {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-item .rank {
+  font-weight: bold;
+  width: 30px;
+}
+
+.leaderboard-item .avatar {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.leaderboard-item .name {
+  flex: 1;
+  font-weight: 600;
+  color: #333;
+  margin-left: 8px;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.leaderboard-item .points {
+  font-weight: bold;
+  color: #555;
+  margin-left: 8px;
+}
+
